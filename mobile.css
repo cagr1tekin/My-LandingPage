@@ -1,0 +1,61 @@
+#mobile-menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    .header_baslik2 span ,.header_baslik2 span a {
+        display: none; /* Header gizlenir */
+    }
+
+    #mobile-menu {
+        display: block; /* Menü gösterilir */
+    }
+
+    .header_img_arkaplan{
+        width: 200px;
+    }
+    .header_ucgen{
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+    }
+    .header_img{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .orta_kutu1_img{
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: auto;
+        margin-top: 5%;
+    }
+    #carouselExampleCaptions{
+        margin-left: 7%;
+        margin-right: 7%;
+        height: auto;
+        width: auto;
+    }
+    
+    .baslik_isim1{
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: auto;
+        font-family: var(--bs-body-font-family);
+        color: darkgray;
+    }
+    .orta_kutu2 h4, .orta_kutu2 h4 span{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .orta_kutu2 h5, .orta_kutu2 ul li h5, .orta_kutu2 ul li{
+        font-size: 15px;
+    }
+    .orta_kutu1 ul p{
+        font-size: 15px;
+    }
+    
+}
+

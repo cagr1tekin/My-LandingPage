@@ -1,0 +1,185 @@
+html {
+    --scrollbarBG: rgba(75, 75, 75, 0.1);
+    --thumbBG: #184256;
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+    background: var(--scrollbarBG);}
+
+body {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+.header_ana{
+    background-color:rgba(198, 45, 45, 0);
+    width: 100%;
+    height: 170px;
+    display: flex;
+    position: fixed;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.header_img_arkaplan{
+    flex: 2;
+    background-color:rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+
+.header_img{
+    background-image: url("img\\resmi_pp_whitebg.png");
+    width: 150px;
+    background-color: black;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.header_baslik1{
+    flex: 4;
+    left: auto;
+    width: 230px;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+}
+
+.header_baslik2{
+    flex: 6;
+    display: flex;
+    width: 100%;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+}
+
+.sag_kutu_ana{
+    display: inline-block;
+    background-image: url("img\\blok.png");
+    width: 100%;
+    height: 100%;
+}
+
+.header_ucgen{
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid rgba(0, 0, 0, 0.8);
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    margin-bottom: 100px;
+    display: flex;
+    position: fixed;
+    transition: 0.3s;
+    margin-top: 170px;
+    z-index: 1;
+    
+}
+
+.orta_kutu_ana{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    display: flex;
+}
+
+.orta_kutu1{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 96%;
+    margin: 4%;
+    margin-top: 230px;
+    
+}
+
+.orta_kutu1_img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 650px;
+    margin-top: 50px;
+    padding-bottom: 5%;
+}
+
+.kutu2_ayrac1{
+    width: 100%;
+}
+.kutu2_ayrac2{
+    width: 100%;
+}
+
+.dil_diz{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+}
+
+.dil_diz_tek{
+    width: 30%;
+    height: 100%;
+    margin: 2%;
+    overflow-x: auto;
+    scrollbar-width: thin;
+}
+
+
+.orta_kutu2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 96%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+.footer_ana{
+    display: flex;
+    width: 100%;
+    height: 75%;
+    justify-content: space-around;
+}
+.footer_kutu1{
+    padding-top: 20px;
+    padding-left: 30px;
+    flex: 6;
+    height: 70%;
+}
+.footer_kutu1_ikon{
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(46, 46, 46);
+    justify-content: space-between;
+}
+
